@@ -1,52 +1,105 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: "Guia Rápido"
+description: "Comece a revolucionar sua produtividade com IA em menos de 15 minutos."
 ---
 
-## Setup your development
+## Conhecendo a Plataforma
 
-Learn how to update your docs locally and deploy them to the public.
+Aprenda tudo sobre as funcionalidades do **Adapta One** e expanda as possibilidades&#x20;
 
-### Edit and preview
+### Comece por aqui
 
 <AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
+  <Accordion title="Conhecendo a Interface" icon="window">
+    Após fazer o seu primeiro login na plataforma e acessar a área de chat, você irá se deparar com a interface principal do **Adapta One**:&#x20;
+
+    ![](/interface-adapta-one.png)
+
+    Nela você irá encontrar todas as funções necessárias para começar a utilizar a plataforma. Você poderá criar novos chats para conversar com os modelos de texto ou imagem, organizar seus chats em pastas, anexar arquivos, melhorar seus ***prompts*** e muito mais!&#x20;
+
+    Abaixo iremos abordar cada uma dessas funções e suas utilidades. Você também irá encontrar guias rápidos em vídeo para entender cada uma dessas funcionalidades na prática.&#x20;
+
+    1. **Menu Principal (Barra Lateral Esquerda)**&#x20;
+
+       1. **Início**
+
+          1. Ícone: Representa a tela inicial do sistema;&#x20;
+
+          2. Função: Retorna o usuário para à área principal, que é o nosso HUB.
+
+       2. **Cursos**
+
+          1. Ícone: Representa a nossa plataforma de cursos;&#x20;
+
+          2. Função: Leva o usuário para o ambiente de ensino, onde ele encontrará toda a nossa biblioteca de cursos.&#x20;
+
+       3. **Área Empresarial**
+
+          1. Ícone: Representa uma pasta de documentos;&#x20;
+
+          2. Função: Leva os usuários do plano **B2B (Empresarial)**, para fazer a gestão de usuários e outras configurações exclusivas.&#x20;
+
+       4. **Indicações**
+
+          1. Ícone: Representa uma caixa de presentes;
+
+          2. Função: Direciona para a nossa área de indicações, onde você poderá ganhar diversos prêmios conforme a quantidade de indicações que tiver.
+
+       5. **Ajuda ou Dúvidas**
+
+          1. Ícone: Ponto de interrogação;&#x20;
+
+          2. Função: Acessar informações de suporte, te levando para essa documentação aqui.&#x20;
+
+       6. **Notificações**
+
+          1. Ícone: Sinal de alarme/sino.
+
+          2. Função: Exibe notificações importantes do sistema.&#x20;
+
+       7. **Configurações**
+
+          1. Ícone: Engrenagem.
+
+          2. Função: Configurações gerais do sistema, como personalização ou ajustes de conta.
+
+       8. **Perfil do Usuário**
+
+          1. Ícone: Foto do usuário.
+
+          2. Função: Informações relacionadas à conta do usuário ou logout.
+
+    2.
   </Accordion>
+
   <Accordion icon="rectangle-terminal" title="Preview changes">
     Previewing helps you make sure your changes look as intended. We built a
     command line interface to render these changes locally. 1. Install the
     [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
+    documentation changes locally with this command: `npm i -g mintlify`
+    2\. Run the following command at the root of your documentation (where
+    `mint.json` is): `mintlify dev`
   </Accordion>
 </AccordionGroup>
 
 ### Deploy your changes
 
 <AccordionGroup>
+  <Accordion icon="message-bot" title="Install our Github app">
+    Our Github app automatically deploys your changes to your docs site, so you
+    don't need to manage deployments yourself. You can find the link to install on
+    your [dashboard](https://dashboard.mintlify.com). Once the bot has been
+    successfully installed, there should be a check mark next to the commit hash
+    of the repo.
+  </Accordion>
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
-
+  <Accordion icon="rocket" title="Push your changes">
+    [Commit and push your changes to
+    Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
+    for your changes to update in your docs site. If you push and don't see that
+    the Github app successfully deployed your changes, you can also manually
+    update your docs through our [dashboard](https://dashboard.mintlify.com).
+  </Accordion>
 </AccordionGroup>
 
 ## Update your docs
@@ -54,33 +107,19 @@ Learn how to update your docs locally and deploy them to the public.
 Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
 
 <CardGroup>
+  <Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
+    Add flair to your docs with personalized branding.
+  </Card>
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+  <Card title="Add API Endpoints" icon="square-code" href="/api-playground/configuration">
+    Implement your OpenAPI spec and enable API user interaction.
+  </Card>
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
+  <Card title="Integrate Analytics" icon="chart-mixed" href="/analytics/supported-integrations">
+    Draw insights from user interactions with your documentation.
+  </Card>
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
-
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
-
+  <Card title="Host on a Custom Domain" icon="browser" href="/settings/custom-domain/subdomain">
+    Keep your docs on your own website's subdomain.
+  </Card>
 </CardGroup>
