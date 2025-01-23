@@ -71,15 +71,15 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "adapta-plays/introduction"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "adapta-plays/endpoint/get",
+        "adapta-plays/endpoint/create",
+        "adapta-plays/endpoint/delete"
       ]
     }
   ],
