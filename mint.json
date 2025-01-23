@@ -1,7 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "ADAPTA Docs",
-  "theme": "quill"
   "logo": {
     "dark": "dark.svg",
     "light": "light.svg"
@@ -85,8 +84,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/AdaptaOrg/",
+    "instagram": "https://www.instagram.com/adapta_org/",
+    "linkedin": "https://www.linkedin.com/company/adapta-org/"
   }
 }
