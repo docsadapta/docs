@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "ADAPTA Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Suporte",
+      "url": "mailto:duvidas@adapta.org"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Vá para o adapta.one",
+    "url": "https://adapta.org"
   },
   "tabs": [
     {
@@ -38,19 +38,19 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Comunidade",
+      "icon": "globe",
+      "url": "https://community.adapta.org/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://adapta.org"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Comece Aqui",
       "pages": [
         "introduction",
         "quickstart",
