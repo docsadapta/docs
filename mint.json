@@ -25,6 +25,9 @@
     "name": "Vá para o adapta.one",
     "url": "https://adapta.org"
   },
+  "primaryTab": {
+    "name": "Home"
+},
   "tabs": [
     {
       "name": "Adapta Plays",
