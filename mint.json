@@ -27,7 +27,7 @@
   },
   "primaryTab": {
     "name": "Adapta One"
-},
+  },
   "tabs": [
     {
       "name": "Adapta Plays",
@@ -68,9 +68,9 @@
         "guia-de-modelos/gemini",
         "guia-de-modelos/one",
         "guia-de-modelos/llama",
-        "guia-de-modelos/mistral"
-        "guia-de-modelos/grok"
-        "guia-de-modelos/perplexity"
+        "guia-de-modelos/mistral",
+        "guia-de-modelos/grok",
+        "guia-de-modelos/perplexity",
         "guia-de-modelos/sabia"
       ]
     },
