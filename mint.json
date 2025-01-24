@@ -36,9 +36,9 @@
   ],
   "anchors": [
     {
-      "name": "Documentação",
+      "name": "Atualizações",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://changelog.adapta.org"
     },
     {
       "name": "Comunidade Global",
@@ -61,14 +61,17 @@
       ]
     },
     {
-      "group": "Guia de Modelos",
+      "group": "Modelos de I.A",
       "pages": [
-        "guia-de-modelos/markdown",
-        "guia-de-modelos/code",
-        "guia-de-modelos/images",
-        "guia-de-modelos/settings",
-        "guia-de-modelos/navigation",
-        "guia-de-modelos/reusable-snippets"
+        "guia-de-modelos/gpt",
+        "guia-de-modelos/claude",
+        "guia-de-modelos/gemini",
+        "guia-de-modelos/one",
+        "guia-de-modelos/llama",
+        "guia-de-modelos/mistral"
+        "guia-de-modelos/grok"
+        "guia-de-modelos/perplexity"
+        "guia-de-modelos/sabia"
       ]
     },
     {
