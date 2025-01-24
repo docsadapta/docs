@@ -56,8 +56,10 @@
       "group": "Comece Aqui",
       "pages": [
         "introduction",
+        "guia-de-modelos",
         "quickstart",
-        "guia-de-modelos"
+        
+        
       ]
     },
     {
