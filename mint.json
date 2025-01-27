@@ -61,17 +61,27 @@
       ]
     },
     {
-      "group": "Modelos de I.A",
+      "group": "Modelos de Texto",
       "pages": [
-        "guia-de-modelos/gpt",
-        "guia-de-modelos/claude",
-        "guia-de-modelos/gemini",
-        "guia-de-modelos/one",
-        "guia-de-modelos/llama",
-        "guia-de-modelos/mistral",
-        "guia-de-modelos/grok",
-        "guia-de-modelos/perplexity",
-        "guia-de-modelos/sabia"
+        "modelos-de-texto/gpt",
+        "modelos-de-texto/claude",
+        "modelos-de-texto/gemini",
+        "modelos-de-texto/one",
+        "modelos-de-texto/llama",
+        "modelos-de-texto/mistral",
+        "modelos-de-texto/grok",
+        "modelos-de-texto/perplexity",
+        "modelos-de-texto/sabia"
+      ]
+    },
+    {
+      "group": "Modelos de Imagem",
+      "pages": [
+        "modelos-de-imagem/dalle",
+        "modelos-de-imagem/flux",
+        "modelos-de-imagem/ideogram",
+        "modelos-de-imagem/stable",
+        "modelos-de-imagem/imagen"
       ]
     },
     {
