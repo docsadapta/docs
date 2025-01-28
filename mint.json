@@ -55,9 +55,9 @@
     {
       "group": "Comece Aqui",
       "pages": [
-        "introduction",
+        "boas-vindas",
         "guia-de-modelos",
-        "quickstart",
+        "inicio-rapido",
         "biblioteca-de-prompts"
       ]
     },
