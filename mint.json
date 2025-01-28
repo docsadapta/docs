@@ -55,49 +55,141 @@
     {
       "group": "Comece Aqui",
       "pages": [
-        "boas-vindas",
-        "guia-de-modelos",
-        "inicio-rapido",
-        "biblioteca-de-prompts"
+        {
+          "name": "Introdução",
+          "icon": "icons/introduction.svg",
+          "url": "introduction"
+        },
+        {
+          "name": "Guia de Modelos",
+          "icon": "icons/guide.svg",
+          "url": "guia-de-modelos"
+        },
+        {
+          "name": "Início Rápido",
+          "icon": "icons/quickstart.svg",
+          "url": "quickstart"
+        },
+        {
+          "name": "Biblioteca de Prompts",
+          "icon": "icons/library.svg",
+          "url": "biblioteca-de-prompts"
+        }
       ]
     },
     {
       "group": "Modelos de Texto",
       "pages": [
-        "modelos-de-texto/gpt",
-        "modelos-de-texto/claude",
-        "modelos-de-texto/gemini",
-        "modelos-de-texto/one",
-        "modelos-de-texto/llama",
-        "modelos-de-texto/mistral",
-        "modelos-de-texto/grok",
-        "modelos-de-texto/perplexity",
-        "modelos-de-texto/sabia",
-        "modelos-de-texto/deepseek"
+        {
+          "name": "GPT",
+          "icon": "icons/gpt.svg",
+          "url": "modelos-de-texto/gpt"
+        },
+        {
+          "name": "Claude",
+          "icon": "icons/claude.svg",
+          "url": "modelos-de-texto/claude"
+        },
+        {
+          "name": "Gemini",
+          "icon": "icons/gemini.svg",
+          "url": "modelos-de-texto/gemini"
+        },
+        {
+          "name": "One",
+          "icon": "icons/one.svg",
+          "url": "modelos-de-texto/one"
+        },
+        {
+          "name": "LLaMA",
+          "icon": "icons/llama.svg",
+          "url": "modelos-de-texto/llama"
+        },
+        {
+          "name": "Mistral",
+          "icon": "icons/mistral.svg",
+          "url": "modelos-de-texto/mistral"
+        },
+        {
+          "name": "Grok",
+          "icon": "icons/grok.svg",
+          "url": "modelos-de-texto/grok"
+        },
+        {
+          "name": "Perplexity",
+          "icon": "icons/perplexity.svg",
+          "url": "modelos-de-texto/perplexity"
+        },
+        {
+          "name": "Sabia",
+          "icon": "icons/sabia.svg",
+          "url": "modelos-de-texto/sabia"
+        },
+        {
+          "name": "DeepSeek",
+          "icon": "icons/deepseek.svg",
+          "url": "modelos-de-texto/deepseek"
+        }
       ]
     },
     {
       "group": "Modelos de Imagem",
       "pages": [
-        "modelos-de-imagem/dalle",
-        "modelos-de-imagem/flux",
-        "modelos-de-imagem/ideogram",
-        "modelos-de-imagem/stable",
-        "modelos-de-imagem/imagen"
+        {
+          "name": "DALL-E",
+          "icon": "icons/dalle.svg",
+          "url": "modelos-de-imagem/dalle"
+        },
+        {
+          "name": "Flux",
+          "icon": "icons/flux.svg",
+          "url": "modelos-de-imagem/flux"
+        },
+        {
+          "name": "Ideogram",
+          "icon": "icons/ideogram.svg",
+          "url": "modelos-de-imagem/ideogram"
+        },
+        {
+          "name": "Stable Diffusion",
+          "icon": "icons/stable-diffusion.svg",
+          "url": "modelos-de-imagem/stable"
+        },
+        {
+          "name": "Imagen",
+          "icon": "icons/imagen.svg",
+          "url": "modelos-de-imagem/imagen"
+        }
       ]
     },
     {
       "group": "API Documentation",
       "pages": [
-        "adapta-plays/introduction"
+        {
+          "name": "Introdução",
+          "icon": "icons/api-intro.svg",
+          "url": "adapta-plays/introduction"
+        }
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "adapta-plays/endpoint/get",
-        "adapta-plays/endpoint/create",
-        "adapta-plays/endpoint/delete"
+        {
+          "name": "GET",
+          "icon": "icons/get.svg",
+          "url": "adapta-plays/endpoint/get"
+        },
+        {
+          "name": "CREATE",
+          "icon": "icons/create.svg",
+          "url": "adapta-plays/endpoint/create"
+        },
+        {
+          "name": "DELETE",
+          "icon": "icons/delete.svg",
+          "url": "adapta-plays/endpoint/delete"
+        }
       ]
     }
   ],
