@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ADAPTA Docs",
   "logo": {
-    "dark": "dark.svg",
-    "light": "light.svg"
+    "dark": "logo/dark.svg",
+    "light": "logo/light.svg"
   },
-  "favicon": "favicon.svg",
+  "favicon": "icons/favicon.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -55,9 +55,9 @@
     {
       "group": "Comece Aqui",
       "pages": [
-        "introduction",
+        "boas-vindas",
         "guia-de-modelos",
-        "quickstart",
+        "inicio-rapido",
         "biblioteca-de-prompts"
       ]
     },
