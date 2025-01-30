@@ -1,6 +1,9 @@
 ---
 title: "GPT-4o"
+description: "teste"
 ---
+
+import { TabelaComparativa } from '/snippets/tabela-comparativa.mdx';
 
 ## <Icon icon="bolt-lightning" size="18" /> TL;DR (Resumo Rápido)&#x20;
 
@@ -26,7 +29,13 @@ O GPT-4o é um <Tooltip tip="Um modelo de linguagem é como um assistente digita
 
 Aqui está uma comparação clara entre o GPT-4o e seus principais concorrentes, o **Claude 3.5 Sonnet** (da Anthropic) e o **Gemini 1.5 Pro** (da Google):
 
-import MySnippet from '/snippets/tablea-comparativa.mdx';
+<TabelaComparativa
+  modelos={[
+  { nome: "GPT-4", velocidade: "Rápida", precisao: "Alta", custo: "Alto" },
+  { nome: "Claude", velocidade: "Média", precisao: "Muito Alta", custo: "Médio" },
+  { nome: "DALL-E", velocidade: "Rápida", precisao: "Alta", custo: "Baixo" }
+]}
+/>
 
 <Tip>
   **Dica**: A janela de contexto é o "espaço" que o modelo tem para processar informações. O Gemini 1.5 Pro, por exemplo, pode analisar documentos de até 1 milhão de tokens, o que equivale a livros inteiros. Já o Claude 3.5 Sonnet é ideal para tarefas que exigem criatividade e tom humanizado, como redação de textos persuasivos.

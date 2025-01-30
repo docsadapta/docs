@@ -1,1 +1,22 @@
-Hello world! This is my content I want to reuse across pages. 
+export const TabelaComparativa = ({ modelos }) => (
+  <table>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>Velocidade</th>
+        <th>Precisão</th>
+        <th>Custo</th>
+      </tr>
+    </thead>
+    <tbody>
+      {modelos.map((modelo, index) => (
+        <tr key={index}>
+          <td>{modelo.nome}</td>
+          <td>{modelo.velocidade}</td>
+          <td>{modelo.precisao}</td>
+          <td>{modelo.custo}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+);
