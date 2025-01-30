@@ -1,22 +1,116 @@
-export const TabelaComparativa = ({ modelos }) => (
+export const TabelaComparativaModelos = () => (
   <table>
     <thead>
       <tr>
-        <th>Modelo</th>
-        <th>Velocidade</th>
-        <th>Precisão</th>
-        <th>Custo</th>
+        <th>Característica</th>
+        <th>GPT-4o (OpenAI)</th>
+        <th>Claude 3.5 Sonnet (Anthropic)</th>
+        <th>Gemini 1.5 Pro (Google)</th>
+        <th>DeepSeek V3</th>
+        <th>Perplexity</th>
+        <th>Grok 2</th>
+        <th>Llama 3.1</th>
+        <th>Mistral</th>
+        <th>Sabiá 3</th>
       </tr>
     </thead>
     <tbody>
-      {modelos.map((modelo, index) => (
-        <tr key={index}>
-          <td>{modelo.nome}</td>
-          <td>{modelo.velocidade}</td>
-          <td>{modelo.precisao}</td>
-          <td>{modelo.custo}</td>
-        </tr>
-      ))}
+      <tr>
+        <td>Janela de Contexto</td>
+        <td>Até 128 mil tokens</td>
+        <td>Até 200 mil tokens</td>
+        <td>Até 1 milhão de tokens</td>
+        <td>Até 128 mil tokens</td>
+        <td>Até 100 mil tokens</td>
+        <td>Até 128 mil tokens</td>
+        <td>Até 128 mil tokens</td>
+        <td>Até 32 mil tokens</td>
+        <td>Até 128 mil tokens</td>
+      </tr>
+      <tr>
+        <td>Data de Corte</td>
+        <td>Outubro de 2023</td>
+        <td>Abril de 2024</td>
+        <td>Janeiro de 2024</td>
+        <td>Outubro de 2023</td>
+        <td>Outubro de 2023</td>
+        <td>Outubro de 2023</td>
+        <td>Outubro de 2023</td>
+        <td>Outubro de 2023</td>
+        <td>Outubro de 2023</td>
+      </tr>
+      <tr>
+        <td>Análise de Imagens</td>
+        <td>Sim (GPT-4o Vision)</td>
+        <td>Não</td>
+        <td>Sim</td>
+        <td>Não</td>
+        <td>Não</td>
+        <td>Não</td>
+        <td>Não</td>
+        <td>Não</td>
+        <td>Não</td>
+      </tr>
+      <tr>
+        <td>Criatividade</td>
+        <td>Alta</td>
+        <td>Muito Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+      </tr>
+      <tr>
+        <td>Velocidade</td>
+        <td>Rápido</td>
+        <td>Muito Rápido</td>
+        <td>Moderado</td>
+        <td>Rápido</td>
+        <td>Muito Rápido</td>
+        <td>Rápido</td>
+        <td>Moderado</td>
+        <td>Muito Rápido</td>
+        <td>Rápido</td>
+      </tr>
+      <tr>
+        <td>Precisão</td>
+        <td>Muito Alta</td>
+        <td>Alta</td>
+        <td>Muito Alta</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+      </tr>
+      <tr>
+        <td>Facilidade de Uso</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Moderada</td>
+        <td>Alta</td>
+        <td>Alta</td>
+        <td>Alta</td>
+      </tr>
+      <tr>
+        <td>Custo de Uso</td>
+        <td>Alto</td>
+        <td>Moderado</td>
+        <td>Moderado</td>
+        <td>Moderado</td>
+        <td>Baixo</td>
+        <td>Baixo</td>
+        <td>Baixo</td>
+        <td>Baixo</td>
+        <td>Baixo</td>
+      </tr>
     </tbody>
   </table>
 );
