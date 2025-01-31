@@ -1,33 +1,20 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: "Introdução"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+## Bem-vindo ao AdaptaPlays 👋
 
-## Welcome
+Se você está interessado em construir automações poderosas sem escrever uma única linha de código, você está no lugar certo. O **AdaptaPlays** é uma plataforma intuitiva e colaborativa para criar automações de fluxo de trabalho com IA chamadas de **Plays**, usando componentes modulares conhecidos como **Blocos**.
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+### Terminologia
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+**Blocos**: São os blocos de construção modulares que você arrasta para o canvas;&#x20;
+**Plays**: Uma série de blocos conectados para alcançar um objetivo;&#x20;
+**Gatilhos**: Executam automaticamente ao detectar condições ou eventos. Use para iniciar Plays;&#x20;
+**Ações:** Executam tarefas em resposta a gatilhos ou manualmente. use para definir o que o Plays faz.
 
-## Authentication
+### O que é um Bloco?
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Blocos são os componentes modulares que compõem um Play. Cada um deles é um passo em uma série de passos em direção a um objetivo.
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+Você pode adicioná-los no canvas a partir do botão **+Adicionar Bloco** e escolhendo o bloco no catálogo a direita.
